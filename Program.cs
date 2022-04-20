@@ -12,6 +12,9 @@ namespace StackOverflowPost
             Console.WriteLine($"Date Created: {post.CreatedOn}");
             Console.WriteLine($"Post Count: {post.VoteCount}");
             post.VoteDown();
+            post.VoteUp();
+            post.VoteUp();
+            post.VoteUp();
             Console.WriteLine($"Post Count: {post.VoteCount}");
             post.VoteUp();
             Console.WriteLine($"Post Count: {post.VoteCount}");
